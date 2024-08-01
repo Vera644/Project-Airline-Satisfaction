@@ -48,10 +48,17 @@ Below is a scatterplot for Arrival Delay before and after outliers have been rem
 
 # Models
 Models implemented are:
+K-Nearest-Neighbor (KNN)
+   
+![image](https://github.com/user-attachments/assets/a18afbb8-4df3-435c-89e5-e1371fccfaa4)
 
-1. K-Nearest-Neighbor (KNN)
-2. Categorical Naive Bayes (CNB)
-3. Random Forest (RF)
+3. Categorical Naive Bayes (CNB)
+
+![CNB](https://github.com/user-attachments/assets/6db2e25a-ec44-49ea-8c13-b262e22cfd74)
+
+5. Random Forest (RF)
+
+![image](https://github.com/user-attachments/assets/71bc19d6-56ba-4f15-977e-10fb9497c5ff)
 
 # Conclusions
 For the KNN model the number of neighbors has been chosen to be 5. The model performed well with 67% of the time accurate predictions. For the Naïve Bayes model, the categorical model has been used because the majority of the variables were categorical. This model also performed well with an accuracy of 90%. Random Forest performed with an accuracy of 96%
