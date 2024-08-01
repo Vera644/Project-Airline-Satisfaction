@@ -61,5 +61,15 @@ Random Forest (RF)
 
 ![image](https://github.com/user-attachments/assets/71bc19d6-56ba-4f15-977e-10fb9497c5ff)
 
+Model CBN and RF are hypertuned using grid search.
+
+# Hypothesis Test
+To test statistical significance between the two models CNB and RF, the Wilcoxon Signed Rank test will be used. This is the non-parametric version of the dependent t-test. A non-parametric test is used because the dependent variable of the dataset is categorical, and the same dataset is used for both machine learning algorithms.The test is set up by collecting 10 accuracy scores for each model using 10-fold cross validation and then applying the Wilcoxon Signed Rank test. The chosen p-value is 0.05. The following null hypothesis and alternative hypothesis were chosen:
+
+**H1** = there is no difference between the two model performances
+
+**Ha** = There is enough evidence to conclude a difference in performance of the models.
+
+
 # Conclusions
-For the KNN model the number of neighbors has been chosen to be 5. The model performed well with 67% of the time accurate predictions. For the Naïve Bayes model, the categorical model has been used because the majority of the variables were categorical. This model also performed well with an accuracy of 90%. Random Forest performed with an accuracy of 96%
+For the KNN model the number of neighbors has been chosen to be 5. The model performed well with 67% of the time accurate predictions. For the Naïve Bayes model, the categorical model has been used because the majority of the variables were categorical. This model also performed well with an accuracy of 90%. Random Forest performed with an accuracy of 96%. The result of the Wilcoxon Signed Rank test showed a p-value of 0.002 and therefore the null hypothesis was rejected showing that there is statistical significance between the two models. By comparing the scores in the classification reports, confusion matrices, area under the curve plots, and learning curve, the Random Forest model seems to produce higher evaluation scores in general.
