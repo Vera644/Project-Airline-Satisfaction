@@ -33,7 +33,8 @@ To further understand the dataset, descriptive statistics is applied for the num
 # Models
 Models implemented are:
 
-1. KNN
-2. Naive Bayes
+1. K-Nearest-Neighbor (KNN)
+2. Categorical Naive Bayes (CNB)
+3. Random Forest (RF)
 # Conclusions
-For the KNN model the number of neighbors has been chosen to be 5. The model performed well with 67% of the time accurate predictions. For the Naïve Bayes model, the categorical model has been used because the majority of the variables were categorical. This model also performed well with an accuracy of 90%.
+For the KNN model the number of neighbors has been chosen to be 5. The model performed well with 67% of the time accurate predictions. For the Naïve Bayes model, the categorical model has been used because the majority of the variables were categorical. This model also performed well with an accuracy of 90%. Random Forest performed with an accuracy of 96%
