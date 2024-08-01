@@ -50,7 +50,8 @@ Below is a scatterplot for Arrival Delay before and after outliers have been rem
 Models implemented are:
 K-Nearest-Neighbor (KNN)
    
-![image](https://github.com/user-attachments/assets/a18afbb8-4df3-435c-89e5-e1371fccfaa4)
+![KNN](https://github.com/user-attachments/assets/5c8180d7-95f1-4e9f-8228-af27dbd0229b)
+
 
 3. Categorical Naive Bayes (CNB)
 
