@@ -1,5 +1,5 @@
 # Objective
-The Goal of this assignment is to determine which independent variables have the most influence on the dependent variable, which is in this case the satisfaction of the passengers. 
+The goal of this assignment is to determine which independent variables have the most influence on the dependent variable, which is in this case the satisfaction of the passengers. 
 # Dataset
 The dataset used is the [Airline Passenger Satisfaction Dataset](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction) from Kaggle.
 It consists of 129880 rows and 25 columns containing both nominal and quantitative variables. The dataset consists of a column or feature named ‘satisfaction’ which describes the overall satisfaction level of the customer. It has two values, ‘neutral or dissatisfied’ and ‘satisfied’. This satisfaction feature is considered as the label feature since it conveys the overall experience of the customer based on the ratings given for other features. The dataset contains a similar amount of each dependent variable category with a count of 73452 Neutral or Unsatisfied and 56428 Satisfied. which makes it balanced.
