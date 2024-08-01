@@ -29,12 +29,29 @@ Outliers from the Arrival Delay were removed because airline delays of more than
 Lastly the dataset is split into 80% training and 20% testing.    
 
 # Data Analysis
-To further understand the dataset, descriptive statistics is applied for the numerical features and outliers were detected for the features that are neither nominal or categorical. Distribution analysis is conducted for features 'Age' and 'Flight Distance'
+To further understand the dataset, correlation analysis is conducted
+
+![image](https://github.com/user-attachments/assets/7827ce3a-7d3c-4124-8fb8-e37cb61c141d)
+
+Descriptive statistics is applied for the numerical features and outliers were detected for the features that are neither nominal or categorical.
+
+![descriptive_statistics](https://github.com/user-attachments/assets/43f6720c-5e56-4b70-8aa6-308dbb707cbf)
+
+The distribution of the two variables Flight Distance and Age were further explored. The histograms below show that Flight Distance is heavily skewed right whereas Age does not show significant skewness this could be due to this variable having a low number of outliers. Another observation from the Age distribution is that there is no data from passengers of certain ages. The average flight distance according to the descriptive statistics table is 1190.316 miles, because many countries are much further apart than this value, these outliers will not be removed since it is possible few passengers have traveled to far countries. The outliers for Age will also not be removed since it is a possibility certain flights include elderly passengers.   
+
+![image](https://github.com/user-attachments/assets/8b1161c5-81cf-48d8-8a20-bef560ce06c2)
+
+Below is a scatterplot for Arrival Delay before and after outliers have been removed. The figure shows there are quite a few outliers that indicate flights were delayed up to around 1600 minutes. Because it is quite unlikely that flight delays will be this long and there are few instances that greater than 500 in the chart. Outliers with a value larger than 500 will be removed. 
+
+![image](https://github.com/user-attachments/assets/f10f5a02-546b-4264-adad-ef060fb900dd)
+
+
 # Models
 Models implemented are:
 
 1. K-Nearest-Neighbor (KNN)
 2. Categorical Naive Bayes (CNB)
 3. Random Forest (RF)
+
 # Conclusions
 For the KNN model the number of neighbors has been chosen to be 5. The model performed well with 67% of the time accurate predictions. For the Naïve Bayes model, the categorical model has been used because the majority of the variables were categorical. This model also performed well with an accuracy of 90%. Random Forest performed with an accuracy of 96%
