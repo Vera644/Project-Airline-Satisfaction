@@ -29,7 +29,7 @@ Outliers from the Arrival Delay were removed because airline delays of more than
 Lastly the dataset is split into 80% training and 20% testing.    
 
 # Data Analysis
-To further understand the dataset, correlation analysis is conducted
+Correlation Matrix
 
 ![image](https://github.com/user-attachments/assets/7827ce3a-7d3c-4124-8fb8-e37cb61c141d)
 
